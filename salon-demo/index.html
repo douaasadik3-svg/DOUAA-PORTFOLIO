@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Élégance Beauty Salon</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h2>Élégance<span>.</span></h2>
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1>Révélez votre beauté naturelle</h1>
+        <p>Votre beauté mérite une attention exceptionnelle.</p>
+        <a href="#contact" class="btn">Prendre rendez-vous</a>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2>Bienvenue chez Élégance</h2>
+    <p>Un espace dédié à votre beauté, votre bien-être et votre élégance.</p>
+</section>
+
+<section id="services" class="services">
+    <h2>Nos Services</h2>
+    <div class="service-container">
+        <div class="card">
+            <h3>Coiffure</h3>
+            <p>Des coiffures modernes adaptées à votre style.</p>
+        </div>
+        <div class="card">
+            <h3>Maquillage</h3>
+            <p>Un maquillage élégant pour vos occasions spéciales.</p>
+        </div>
+        <div class="card">
+            <h3>Soins du visage</h3>
+            <p>Des soins pour une peau éclatante et lumineuse.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contactez-nous</h2>
+    
+    <a class="btn whatsapp"
+       href="https://wa.me/212XXXXXXXXX"
+       target="_blank">
+       Réserver sur WhatsApp
+    </a>
+    
+    <p>Réservez votre prochain rendez-vous.</p>
+    <form id="bookingForm">
+        <input type="text" id="name" placeholder="Votre nom" required>
+        <input type="email" id="email" placeholder="Votre email" required>
+        <input type="date" id="date" required>
+        <button type="submit" class="btn">Envoyer</button>
+    </form>
+    <p id="message"></p>
+</section>
+<!-- Gallery -->
+<section class="gallery" id="gallery">
+    <h2>Notre Galerie</h2>
+    <p>Découvrez notre univers beauté</p>
+
+    <div class="gallery-container">
+        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600" alt="Salon de beauté">
+        <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600" alt="Coiffure">
+        <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=600" alt="Maquillage">
+    </div>
+</section>
+
+<!-- Prices -->
+<section class="prices">
+    <h2>Nos Tarifs</h2>
+
+    <div class="price-container">
+        <div class="price-card">
+            <h3>Coiffure</h3>
+            <p>À partir de 100 DH</p>
+        </div>
+
+        <div class="price-card">
+            <h3>Maquillage</h3>
+            <p>À partir de 150 DH</p>
+        </div>
+
+        <div class="price-card">
+            <h3>Soins du visage</h3>
+            <p>À partir de 120 DH</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Élégance Beauty Salon. Tous droits réservés.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
